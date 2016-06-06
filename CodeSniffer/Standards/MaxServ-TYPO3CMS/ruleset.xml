@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ruleset name="MaxServ-TYPO3CMS">
+    <rule ref="TYPO3CMS" />
+    <description>TYPO3CMS coding standard with severity changes</description>
+
+    
+    <rule ref="TYPO3SniffPool.Commenting.FileComment.CommentTooLong">
+        <severity>1</severity>
+    </rule>
+    
+    <rule ref="TYPO3SniffPool.Commenting.ClassComment.NoAuthorTag">
+        <severity>1</severity>
+    </rule>
+
+    <rule ref="TYPO3SniffPool.Commenting.NoAuthorAnnotationInFunctionDocComment.NoAuthorAnnotationFoundInClassDocComment">
+    	<severity>1</severity>
+    </rule>
+
+    <rule ref="TYPO3SniffPool.Commenting.DocComment.MissingShort">
+    	<severity>1</severity>
+    </rule>
+
+    <rule ref="Generic.Files.LineLength.TooLong">
+    	<severity>1</severity>
+    </rule>
+
+    <rule ref="TYPO3SniffPool.Commenting.DocComment.ContentAfterOpen">
+    	<severity>1</severity>
+    </rule>
+
+    <rule ref="TYPO3SniffPool.Commenting.DocComment.ContentBeforeClose">
+    	<severity>1</severity>
+    </rule>
+
+    <rule ref="TYPO3SniffPool.Commenting.ValidCommentLineLength">
+    	<severity>1</severity>
+    </rule>
+
+    <rule ref="TYPO3SniffPool.Commenting.DocComment.NonParamGroup">
+    	<severity>1</severity>
+    </rule>
+</ruleset>
